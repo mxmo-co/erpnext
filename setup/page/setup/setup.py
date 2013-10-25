@@ -230,6 +230,8 @@ items = [
 		"route": "Form/Backup Manager", "type": "Link", "icon": "icon-cloud" },
 	{ "title": "System Scheduler Errors", 
 		"route": "Report/Scheduler Log", "type": "Link", "icon": "icon-exclamation-sign" },
+	{ "title": "Translate ERPNext",
+		"route": "translation-tool", "type": "Link", "icon": "icon-book"}		
 ]
 
 @webnotes.whitelist(allow_roles=["System Manager"])
